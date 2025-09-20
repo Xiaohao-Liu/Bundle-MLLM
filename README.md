@@ -60,7 +60,7 @@ Our experiments were conducted on a server with 4 * A40 GPUs and with CUDA Versi
 
 The datasets used in our paper can be downloaded from [this link](https://huggingface.co/datasets/xhLiu/BundleConstruction). The download includes the following four datasets: `POG_sparse`, `Spotify_sparse`, `pog`, and `spotify`. All four datasets were utilized in our experiments.
 
-After downloading and extracting the datasets, place them in the `datasets` directory. You can specify which dataset to use during runtime with the `--dataset` argument and set the data path using `--data_path`. The default dataset is `pog`.
+After downloading and extracting the datasets, place them in the `datasets` directory. You can specify which dataset to use during runtime with the `--dataset` argument and set the data path using `--data_path`. The default dataset is `pog`. We provide the processed features in [xhLiu/BundleConstruction](https://huggingface.co/datasets/xhLiu/BundleConstruction). You can also download the checkpoints of Bundle-MLLM at [xhLiu/Bundle-MLLM](https://huggingface.co/xhLiu/Bundle-MLLM).
 
 ### Train and Test
 
